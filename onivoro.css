@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+:root{
+    --paleta-verde03: #2e2b02;
+    --paleta-verde02: #375D3B;
+    --paleta01: #C4D7A4;
+    --paleta-marrom02: #cca069;
+    --paleta-marrom03: #734002;
+
+    --fonte-destaque: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    --fonte-padrao: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+*{
+    margin: 2px;
+    padding: 0px;
+    line-height: 1.5em
+}
+
+body{
+    font-family:var(--fonte-padrao); 
+    color: var(--paleta-marrom03);
+    background-color: var(--paleta-marrom02);
+}
+
+nav{
+    background-color: var(--paleta-verde02);
+    color: var(--paleta01);
+    text-align: center;
+    padding: 5px;
+    display: inline-block;
+    border-radius: 40px;
+}
+
+nav p a{
+    color: var(--paleta01);
+    display: block;
+    padding: 0px 10px;
+    text-decoration: none;
+}
+
+nav p a:hover{
+    color: var(--paleta-verde03);
+    text-decoration: none;
+    transition-duration: 0.1s;
+}
+
+div.responsividade{
+    width: 100%;
+    display: inline-block;
+}
+
+footer{
+    font-size: 10px;
+    color: var(--paleta-verde02);
+}

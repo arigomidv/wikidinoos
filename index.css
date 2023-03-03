@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+:root{
+    --paleta-verde03: #2e2b02d6;
+    --paleta-verde02: #375D3B;
+    --paleta01: #C4D7A4;
+    --paleta-marrom02: #cca069;
+    --paleta-marrom03: #734002e9;
+    
+    --fonte-destaque: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    --fonte-padrao: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+*{
+    margin: 2px;
+    padding: 0px;
+    line-height: 1.5em
+}
+
+body{
+    font-family:var(--fonte-padrao); 
+    color: var(--paleta01);
+    background-color: var(--paleta-verde02);
+}
+
+
+div.responsividade{
+    width: 100%;
+    display: inline-block;
+
+}
+
+
+div.topo{
+    background-color: var(--paleta-verde03);
+    text-align: center;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 10px;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: var(--fonte-destaque);
+}
+
+legend{
+    font-family: var(--fonte-destaque);
+    font-size: 20px;
+    text-align: center;
+}
+
+div.corpo{
+    padding: 5px;
+    margin: 10px;
+}
+
+p{
+    font-family: var(--fonte-padrao);
+    font-size: 15px;
+    color: var(--paleta01);
+}
+
+ul.menu{
+    color: var(--paleta01);
+    text-align: center;
+    padding: 0px 10px;
+    font-family: var(--fonte-padrao);
+
+}
+
+ul.menu li{
+    display: inline-block;
+    padding: 0px 10px;
+    font-family: var(--fonte-padrao);
+    color: var(--paleta01);
+}
+
+ul.menu li a{
+    color: var(--paleta01);
+    display: block;
+    padding: 0px 10px;
+    text-decoration: none;
+    font-family: var(--fonte-padrao);
+}
+
+ul.menu li a:hover{
+    color: var(--paleta-verde03);
+    text-decoration: none;
+    transition-duration: 0.1s;
+    font-family: var(--fonte-destaque);
+}
+
+div.fim h2, p.fim{
+    padding-top: 5px;
+    font-size: 11px;
+}
+
+div.fim p a{
+    color: var(--paleta01);
+    display: block;
+    padding: 0px 10px;
+    text-decoration: none;
+    font-family: var(--fonte-padrao);
+}
+
+div.fim p a:hover{
+    color: var(--paleta-verde03);
+    text-decoration: none;
+    transition-duration: 0.1s;
+    font-family: var(--fonte-destaque);
+}
+
+div.linha{
+    text-align: center;
+}
+
+div.linha img{
+    width: 75%;
+}
+
+footer{
+    font-size: 5px;
+    color: var(--paleta01);
+}
+
+div.etimologia{
+    text-align: center;
+}
